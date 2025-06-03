@@ -16,6 +16,6 @@ public class LivroFisico extends Livro {
     }
 
     public String exibirDetalhes() {
-        return super.exibirDetalhes()+"| Numero de páginas: " + numeroDePaginas;
+        return "Livro Físico: " + super.exibirDetalhes() + "| Páginas: " + numeroDePaginas;
     }
 }

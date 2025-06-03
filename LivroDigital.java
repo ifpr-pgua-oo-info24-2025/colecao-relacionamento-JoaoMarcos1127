@@ -16,6 +16,6 @@ public class LivroDigital extends Livro {
     }
 
     public String exibirDetalhes() {
-        return super.exibirDetalhes()+"| Tamanho: "+ tamanhoDoArquivoMB;
+        return "Livro Digital: " + super.exibirDetalhes() + "| Tamanho: "+ tamanhoDoArquivoMB + "MB";
     }
 }
